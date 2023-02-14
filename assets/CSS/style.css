@@ -118,6 +118,7 @@ body {
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+    
 
 }
 
@@ -1156,7 +1157,9 @@ img {
     .main,
     .footer__container{
         padding: 0;
-        
+        margin: auto;        
+        justify-content: center;
+        display: grid;
     }
     .home__blob{
         width: 320px;
